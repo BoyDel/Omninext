@@ -10,8 +10,6 @@ custom:
 provider:
   name: aws
   runtime: python3.11
-  profile: andrija
-  region: eu-north-1
   iam:
     role:
       statements:
