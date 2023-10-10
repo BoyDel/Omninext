@@ -1,3 +1,4 @@
+## Users api service
 ### Dependencies
 
 Prerequisite to start deploying application is having python and npm installed.
@@ -32,7 +33,7 @@ Deploying users-api to stage dev (us-east-1)
 
 endpoints:
   POST - https://<api-gateway-id>.execute-api.<aws-region>.amazonaws.com/dev/users
-  GET - https://<api-getway-id>.execute-api.<aws-region>.amazonaws.com/dev/users/{user_id}
+  GET - https://<api-gateway-id>.execute-api.<aws-region>.amazonaws.com/dev/users/{user_id}
 functions:
   create-user: users-api-dev-create-user (1.8 MB)
   get-user: users-api-dev-get-user (1.8 MB)
