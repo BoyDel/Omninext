@@ -8,7 +8,7 @@ class UserService():
 
     def create_user(self, user_data):
 
-        # Scenario 1: User id is created 
+        # Scenario 1: User id is created since user id is not expected
         # user_data["id"] = str(uuid4())
 
         # Scenario 2: User id is expected
